@@ -1,0 +1,15 @@
+{
+  "recommendations": [
+    "Vue.volar",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "mikestead.dotenv",
+    "dbaeumer.vscode-eslint",
+    "kumar-harsh.graphql-for-vscode",
+    "ms-vscode.vscode-typescript-next",
+    "esbenp.prettier-vscode",
+    "syler.sass-indented",
+    "wayou.vscode-todo-highlight",
+    "Vue.vscode-typescript-vue-plugin"
+  ]
+}
