@@ -9,3 +9,7 @@
 [@iconify-json/carbon](https://icones.js.org/collection/carbon)
 
 [@iconify-json/mdi](https://icones.js.org/collection/mdi)
+
+[VueUse](https://github.com/vueuse/vueuse)
+
+[simple-git-hooks](https://github.com/toplenboren/simple-git-hooks)
