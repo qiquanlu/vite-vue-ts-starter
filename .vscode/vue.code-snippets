@@ -1,0 +1,32 @@
+{
+    "Vue3 SFC": {
+      "prefix": "vue3",
+      "body": [
+        "<script setup lang='ts'>",
+        "$1",
+        "</script>",
+        "<template>",
+        "  $2",
+        "</template>",
+        "<style scoped lang='scss'>",
+        "  $3",
+        "</style>"
+      ],
+      "description": "Vue3 SFC"
+    },
+    "template": {
+      "prefix": "template",
+      "body": ["<template>", "\t<div$2>", "\t\t$0", "\t</div>", "</template>"],
+      "description": "vue template tag"
+    },
+    "script": {
+      "prefix": "script",
+      "body": ["<script setup lang=\"ts\">", "\t$0", "</script>"],
+      "description": "script with setup and tslang"
+    },
+    "style": {
+      "prefix": "style",
+      "body": ["<style lang=\"$0\" scoped>", "\t", "</style>"],
+      "description": "style element with lang attribute"
+    }
+  }

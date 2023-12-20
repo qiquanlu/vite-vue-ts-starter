@@ -27,6 +27,7 @@
     "@unocss/preset-mini": "^0.58.0",
     "@vitejs/plugin-vue": "^4.5.2",
     "eslint": "^8.56.0",
+    "lint-staged": "^15.2.0",
     "simple-git-hooks": "^2.9.0",
     "taze": "^0.13.0",
     "typescript": "*",
@@ -38,7 +39,7 @@
     "pre-commit": "npx lint-staged"
   },
   "lint-staged": {
-    "*.{js,ts,tsx,vue,md}": [
+    "*.{js,ts,tsx,vue,md,json}": [
       "eslint --cache --fix"
     ]
   }
