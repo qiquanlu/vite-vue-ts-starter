@@ -12,7 +12,7 @@ const count = ref(0)
 
   <div class="shadow pa-2">
     <div class="ma-2">
-      <button class="bg-warning pa-2 text-info shadow border-0 rounded-2 font-extralight font-size-10" type="button" @click="count++">
+      <button class="btn bg-warning pa-2 text-info shadow border-0 rounded-2 font-extralight font-size-10" type="button" @click="count++">
         count is {{ count }}
       </button>
       <p>
